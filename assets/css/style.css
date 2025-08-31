@@ -9,3 +9,44 @@
 a {
     text-decoration: none;
 }
+
+.text {
+    text-align: center;
+    height: 100px;
+    background: #262626;
+}
+
+.text h1 {
+    line-height: 100px;
+    color: #fff;
+    font-size: 48px;
+}
+
+ul {
+    background: #111;
+    display: flex;
+}
+
+.menu {
+    transition: 0.4s;
+}
+
+ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+section {
+    width: 100%;
+    min-height: 500px;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
